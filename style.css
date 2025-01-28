@@ -1,0 +1,19 @@
+li{
+    font-size: xx-large;
+    list-style-type:none;
+    font-family:"Lexend Giga", serif;
+}
+a{
+    color: mediumaquamarine;
+    text-decoration: none;
+    background-color: rgb(114, 92, 114) ;
+}
+a:hover{
+    color:aqua;
+    background-color: rgb(93, 64, 93);
+}
+.current-page-button{
+padding-left: 70px;
+    color:aqua;
+    background-color: rgb(93, 64, 93);
+}
