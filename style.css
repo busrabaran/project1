@@ -1,19 +1,27 @@
-li{
+/*************** NAV STYLE ***************/
+nav ul{
+    position: fixed;
+    width: 100%;
+}
+nav li{
     font-size: xx-large;
     list-style-type:none;
     font-family:"Lexend Giga", serif;
 }
-a{
+nav a{
     color: mediumaquamarine;
     text-decoration: none;
     background-color: rgb(114, 92, 114) ;
 }
-a:hover{
-    color:aqua;
-    background-color: rgb(93, 64, 93);
+nav a:hover{
+    color:rgb(96, 225, 225);
+    background-color: rgb(95, 70, 95);
+}
+.current-page-block{
+    padding-left: 30px;
 }
 .current-page-button{
-padding-left: 70px;
-    color:aqua;
+    color:rgb(0, 255, 255);
     background-color: rgb(93, 64, 93);
 }
+/*************** bbbb ***************/
