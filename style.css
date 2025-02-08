@@ -1,10 +1,14 @@
 /*************** NAV STYLE ***************/
-nav ul{
-    position: fixed;
+nav{
+    position:fixed ;
     width: 100%;
+    background-color: white;
+    top: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 nav li{
-    font-size: xx-large;
+    font-size: x-large;
     list-style-type:none;
     font-family:"Lexend Giga", serif;
 }
@@ -17,11 +21,20 @@ nav a:hover{
     color:rgb(96, 225, 225);
     background-color: rgb(95, 70, 95);
 }
-.current-page-block{
-    padding-left: 30px;
-}
 .current-page-button{
     color:rgb(0, 255, 255);
     background-color: rgb(93, 64, 93);
 }
-/*************** bbbb ***************/
+.current-page-block{
+    padding-left: 30px;
+}
+/*************** HARİTA ***************/
+main{
+    margin-top: 140px; /* nav bölmesinin yüksekliğine göre değişecek */
+}
+.contact{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    gap: 10px;
+}
